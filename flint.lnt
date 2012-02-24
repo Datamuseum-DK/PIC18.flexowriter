@@ -1,0 +1,56 @@
+-summary
+-passes=7
+
++dRAM_SCLS=
++d__wparam=
++d__interrupt()=
++d__naked=
++d__code=
++d__data=
++d_STRING_SPEC=
+-d__at()=
+-dat()=
+-dcode=
++dFLEXELINT
++dClrWdt()=
++dwparam=
+
+-e657	/* Unusual (nonportable) anonymous struct or union */
+
+-e734	/* Loss of precision (assignment) (32 bits to 7 bits) */
+
+-e716	/* while(1) ... */
+
+-e717	/* do ... while (0) */
+
+-e845	// certain zero with +
+-e835	// certain zero with >>
+
+-esym(728, pipe_out_*)	// Symbol '___' (___) not explicitly initialized
+-esym(728, pipe_in_*)	// Symbol '___' (___) not explicitly initialized
+-esym(843, pipe_out_*)	// Variable '___' (___) could be declared as const
+-esym(843, pipe_in_*)	// Variable '___' (___) could be declared as const
+
+-esym(534, printf)	// Ignoring return value of function '___' (compare with ___)
+-esym(534, memcpy)	// Ignoring return value of function '___' (compare with ___)
+-emacro(545, PTR16)	// Suspicious use of &
+-emacro(572, W16)	// Excessive shift value (precision ___ shifted right by ___)
+-emacro(778, W16)	// Constant expression evaluates to 0 in operation '___'
+-emacro(506, QUIET)	// Constant value Boolean
+-emacro(835, BDTo)	// A zero has been given as ___ argument to operator '___'
+-emacro(835, BDTi)	// A zero has been given as ___ argument to operator '___'
+
+-emacro(506, IF_PORT)	// Constant value Boolean
+-emacro(774, IF_PORT)	// Boolean within 'if' always evaluates to False
+-emacro(778, IF_PORT)	// Constant expression evaluates to 0 in operation '&'
+
+-esym(550, __serial_init_hack)	// Symbol '___' (___) not accessed
+-esym(838, __serial_init_hack)	// Previously assigned value to variable '___' has not been used
+-esym(438, __serial_init_hack)	// Last value assigned to variable '___' (___) not used
+
+-e537			// Repeated include file
+
+-e84			// Sizeof object is zero or object is undefined
+
+-esym(756, __assert*)	// global typedef '___' (___) not referenced
+-esym(714, config??)	// Symbol '___' (___) not referenced
